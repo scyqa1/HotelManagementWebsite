@@ -1,0 +1,16 @@
+body{background-color:transparent;background-image: url(./aqc.jpg); background-size:cover; }
+#login-box{border:5px solid yellow;background: rgb(140, 192, 194) top center no-repeat;width:600px; height:400px;margin:150px auto 0 auto; position:relative;opacity:0.9;}
+.login-top{height:48px;line-height:60px;}
+.login-top a{color:rgb(255, 72, 0);font-size:20px;text-decoration:none; margin-right:20px;}
+.login-top a:hover{color:#fff;text-decoration:underline;}
+
+.login-main{height:160px;margin-top:10px; position:absolute; left:150px; top:100px;}
+
+.login-main input[type='text'], .login-main input[type='password']{background-color:rgb(234, 247, 162);border:1px; width:240px; height:40px; color:black; font-size:16px;margin-top:11px; padding-left:40px; font-weight:bold;}
+.login-main a{color:rgb(1, 1, 1); text-decoration:none; font-size:12px;}
+.login-main a:hover{color:#fff000;}
+
+.ZLoginButton {border-radius:3px;border:1px solid rgb(141, 41, 41);float:center;font-size:2em;width:160px; height:50px;position: relative;top: 30px;left: 50px;}
+.ZLoginButton {background-color:#007CC3;border-color:white;color:black;}
+.ZLoginButton:hover{background-color:#3a0769;color:rgba(237, 240, 227, 0.925);text-decoration:underline;}
+.ZLoginButton:active{background-color:#005d92;}

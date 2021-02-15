@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+
+<script>
+    function check() {
+        if (document.getElementById("oldpwd").value=="") {
+            alert("Please enter your password");
+            document.getElementById("oldpwd").focus();
+            return false;
+        }
+        else if (document.getElementById("newpwd").value=="") {
+            alert("Please enter your new password");
+            document.getElementById("newpwd").focus();
+            return false;
+        }
+        else{
+            return true;
+        }
+
+    }
+</script>
+
+<title>Change Password</title>
+
+</head>
+
+<body style="background-image: url(./456.jpg);background-size:cover">
+<div >
+  <form method="post" action="change.php" onsubmit="return check()">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2" style="font-size:20px; color:red">Change Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th width="30%" style="font-size:13px; color:red"> &nbsp;&nbsp;Old password： </th>
+          <td><input name="oldpassword" id="oldpwd" type="password" autocomplete="off"> 
+          </td>
+        </tr>
+        <tr>
+          <th width="30%" style="font-size:13px; color:red">New password：</th>
+          <td><input name="newpassword" id="newpwd" type="password" autocomplete="off"> 
+          </td>
+        </tr>
+
+        <tr>
+          <th></th>
+          <td>
+            <button type="submit" style="font-size:20px" > Submit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+
+</body>
+</html>

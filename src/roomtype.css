@@ -1,0 +1,21 @@
+.location{
+	border-bottom:1px solid #e0d7be;
+	height:45px;
+	line-height:32px;
+	background-position:-946px -100px;
+}
+.location span{margin:0 8px;}
+.location a:hover{color:#b27b00;}
+
+.rz{float:left;}
+.ld{float:left; margin-left:10px}
+
+.room { line-height:20px;}
+
+.room_row { padding:4px 0; height:28px; border-top:1px solid #e5e5e5; overflow:hidden;}
+.room_row { border-top:1px solid #fff;}
+
+.room_name { float:left; width:200px; line-height:22px; height:22px; padding:4px 0 0 0; overflow:hidden;word-break:keep-all;white-space:nowrap;}
+
+.btn_yd { width:50px; height:22px; border:none; background:url(icon_room.gif) 0 -500px no-repeat; color:#fff; font-size:12px; cursor:pointer; font-weight:bold; line-height:17px; _line-height:24px; }
+.btn_mf { width:50px; height:22px; border:none; background:url(icon_room.gif) 0 -550px no-repeat; color:#888; font-size:12px; font-weight:bold; line-height:17px; _line-height:24px;}

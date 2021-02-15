@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Register - Sunny Isle</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta content="Register" name="keywords">
+    <meta content="Register - Sunny Isle - in the east region of Lukewarm Kingdom" name="description">
+    <link href="./reg.css" rel="stylesheet">
+    <script>
+        function check_emt() {
+            if (document.getElementById("UserName").value=="") {
+                alert("Empty Username");
+                document.getElementById("UserName").focus();
+                return false;
+            }
+            else if (document.getElementById("Password").value=="") {
+                alert("Empty Password");
+                document.getElementById("Password").focus();
+                return false;
+            }
+            else if (document.getElementById("Name").value=="") {
+                alert("Empty Name");
+                document.getElementById("Name").focus();
+                return false;
+            }
+            else if (document.getElementById("Phone").value=="") {
+                alert("Empty Telephone Number");
+                document.getElementById("Phone").focus();
+                return false;
+            }
+            else if (document.getElementById("Email").value=="") {
+                alert("Empty Email");
+                document.getElementById("Email").focus();
+                return false;
+            }
+            else if (document.getElementById("Passport").value=="") {
+                alert("Empty Passport ID");
+                document.getElementById("Passport").focus();
+                return false;
+            }
+            else{
+                return true
+            }
+
+        }
+    </script>
+</head>
+<body style="background-image: url(./456.jpg);background-size:cover">
+    <div class="header"><div class="logo"><a href="homepage.php" style="size: 100em; color:red" >HOME PAGE</a></div><h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Personal Register</h1><div class="login">Already registered？<a href="userlogin.php" style="color: red">Please log in</a></div></div>
+    <div class="content">
+        <form action="insert.php" method="post" onsubmit="return check_emt()">
+        <div class="line"><span class="title">Username</span><span class="red">*</span><input type="text" name="UserName" id="UserName" ></div>
+        <div class="line"><span class="title">Password</span><span class="red">*</span><input type="password" name="Password" id="Password" ></div>
+        <div class="line"><span class="title">Realname</span><span class="red">*</span><input type="text" name="Name" id="Name" ></div>
+        <div class="line"><span class="title">Telephone number</span><span class="red">*</span><input type="text" name="Phone" id="Phone" ></div>
+        <div class="line"><span class="title">Email address</span><span class="red">*</span><input type="text" name="Email" id="Email" ></div>
+        <div class="line"><span class="title">Passport ID</span><span class="red">*</span><input type="text" name="Passport" id="Passport" ></div>
+
+
+        <div class="infobox"><div class="title">Sunny Isle - in the east region of Lukewarm Kingdom</div>
+            <div class="info" style="color: yellow">A lovely home<br>All over the world prefer<br>For your nice holiday<br><strong>Join us</strong><br><br>
+                Telephone：<br>0000-0000000<br>13333333333
+            </div>
+        </div>
+            <input type="submit" value="Register Now" class="btn_sub">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
+

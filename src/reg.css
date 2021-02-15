@@ -1,0 +1,43 @@
+﻿body {
+	font-size: 12px;
+	color: #282828;
+	text-align:center;
+}
+
+a{ color:#005aa0; text-decoration:none;}
+    a:hover { color:red; }
+
+td{font-size: 12px;}
+
+.red{ color:#FD463B!important;}
+
+.msg{ background-color:#ECF7F1;border:solid 1px #ECF7F1; color:#333; padding:5px 10px; line-height:140%;background-color:#ECF7F1;}
+
+.focus{ border:solid 1px #00CA65; background-color:#F9F3FF; }
+
+.btn_sub {padding:15px 15px;  font:bold 18px/18px "Microsoft YaHei";display:inline-block; border:none; background-color:#00A9E8; color:#fff; border-radius:4px;transition:all 0.5s; margin-top:20px;cursor:pointer;}
+.btn_sub:hover { background-color:#009DD7;color:#fff;}
+.btn_sub:active { background-color:#008BBE;  }
+
+.header,.content {width:1000px; margin:0 auto;font-size:14px;  }
+.header { height:70px;padding:10px 0 ; }
+.header .logo { float: left; width: 150px; padding-right: 20px; border-right: 1px solid #dddddd; }
+.header h1 { float:left; padding:0; margin:0; margin-left:20px;font-family:'Microsoft YaHei'; height:70px; line-height:60px;font-size:24px; font-weight:normal}
+.header .login { float:right; height:70px; line-height:70px; }
+.content {position:relative; margin-top:20px; }
+
+    .content .line { padding:10px 10px;text-align:left;position:relative; }
+    .content .line input { border: 1px solid #cccccc;font:14px/36px "Microsoft YaHei";  height:36px; padding: 0 5px; transition: all 0.5s; margin-left:5px; }
+    .content .line input:focus { outline: none; border: 1px solid #99D6B7; box-shadow: 2px 2px 3px #ebebeb inset; }
+    .content .line .title { display: inline-block; width: 132px; text-align:right; margin-right:5px; }
+    .content .line s pan { margin-right:10px }
+    .content .line .msg { position:absolute; left:500px; top:10px; width:250px; font-size:12px; line-height:160%; display:none; }
+
+
+    .content .infobox {position:absolute; top:0; right:0; width:200px; border:1px solid #e9e9e9;border-top:2px solid #036924; font-size:12px; text-align:left; line-height:180%; color:#666;}
+    .content .infobox .title { background:#f6f6f6;  padding:10px; font-weight:bold;}
+    .content .infobox .info { padding:10px; line-height:200%; }
+    .content .infobox .info strong { color:#d7342b; font:bold 14px/180% Arial; padding:0 3px; }
+
+    
+#UserName, #PassWord, #Name, #Phone, #Email, #Passport { width:300px }
